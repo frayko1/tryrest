@@ -412,18 +412,23 @@ nav h1 {
 }
 
 .form-container .form form input {
-	height: 35px;
+	height: 38px;
 	outline: none;
 	border-radius: 5px;
 	border: 2px solid #ccc;
 	transition: 0.3s;
 	background-color: #23221E;
 	padding: 10px;
+	padding-left: 32px;
 	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 }
 
 .form-container .form form input[type=text]:focus {
-  border: 2px solid #ffc532;
+   border: 2px solid #ffc532;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
 }
 
 .form-container .form form button {
@@ -437,6 +442,18 @@ nav h1 {
 	transition-duration: .3s;
 	font-size: 18px;
 	font-weight: 500;
+}
+
+.user-input {
+	background: url('img/user.png') no-repeat center left;
+	padding-left:110px;
+	background-position: 5px;
+}
+
+.phone-input {
+	background: url('img/number.png') no-repeat center left;
+	padding-left:110px;
+	background-position: 5px;
 }
 
 .form-image {
