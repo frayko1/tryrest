@@ -423,12 +423,12 @@ nav h1 {
 }
 
 .form-container .form form input[type=text]:focus {
-  border: 2px solid #d2691e;
+  border: 2px solid #ffc532;
 }
 
 .form-container .form form button {
 	margin-top: 30px;
-	background-color: #d2691e;
+	background-color: #ffc532;
 	color: black;
 	border-radius: 5px;
 	padding: 12px 20px;
